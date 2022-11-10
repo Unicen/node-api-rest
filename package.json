@@ -1,0 +1,24 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "API REST creada en el Taller de Nuevas Tecnologias",
+  "main": "api-route.js",
+  "scripts": {
+    "dev": "nodemon api-route.js",
+    "start": "node api-route.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apirest",
+    "api"
+  ],
+  "author": "WEB2 - TUDAI",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
