@@ -5,7 +5,8 @@ const TaskController = require('./controllers/task.controller');
 
 const express = require('express');
 const app = express(); // new Router(); seria como el router
-const port = 3000;
+
+const port = process.env.PORT || 3000;
 
 // tabla de ruteo
 app.get('/', (req, res) => { // (http_request, http_response)
